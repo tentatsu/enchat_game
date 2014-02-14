@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no"> 
+        <meta name="apple-mobile-web-app-capable" content="yes"> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <title>お魚ゲーム。パクリじゃないよ</title>
+        <script type="text/javascript" src="../jquery.1.4.4.js"></script>
+        <script type="text/javascript" src="../jquery.prettyPopin.js"></script>
+        <script type="text/javascript" src="../enchant_hyo.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="/httpd/css/prettyPopin.css" type="text/css" media="screen" charset="utf-8" />
+        <script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+                $("a[rel^='prettyPopin']").prettyPopin( {  
+                   modal : true,  
+                   width : 320,  
+                   height: 100,  
+                   opacity: 0.5,  
+                   animationSpeed: '0',   
+                   followScroll: false,  
+                   loader_path: '/httpd/img/loader.gif',  
+                   callback: function(){  
+                   }
+                })
+            });
+        </script>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+    <a href="max.php" style="display:none" rel="prettyPopin">max</a>
+    </body>
+</html>
