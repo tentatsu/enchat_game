@@ -4,7 +4,7 @@ enchat_game
 enchat.jsを使ったゲームをなんとなーく公開中
 
 
-﻿# githubを使った開発
+# githubを使った開発
 
 ## githubの準備
   - githubアカウントを作る 
